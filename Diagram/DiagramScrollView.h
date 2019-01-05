@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic,assign)CGFloat lineWidth;
 @property(nonatomic,assign)CGFloat gapX;
 @property(nonatomic,assign)CGFloat gapY;
-@property(nonatomic,assign)int max;
+@property(nonatomic,assign)float max;
 @end
 
 NS_ASSUME_NONNULL_END

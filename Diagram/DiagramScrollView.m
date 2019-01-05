@@ -42,7 +42,7 @@
     }
     for (int i = 0; i < self.dataArray.count; i ++) {
         int value = (int)[self.dataArray[i] integerValue];
-        CGFloat heigth = value/250.f * (self.sFrame.size.height-70);
+        CGFloat heigth = value/self.max * (self.sFrame.size.height-70);
         CGFloat x = self.gapX/2+ i * (self.gapX+self.lineWidth);
         UIView * lineView = [[UIView alloc] initWithFrame:CGRectMake(x, self.sFrame.size.height - 30-heigth, self.lineWidth, heigth)];
         lineView.backgroundColor = [UIColor colorWithRed:241/255.f green:181/255.f blue:13/255.f alpha:1];
